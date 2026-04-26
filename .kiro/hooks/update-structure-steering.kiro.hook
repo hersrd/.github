@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Update Structure Steering",
+  "description": "When files in .github/ are created, edited, or deleted, prompt the agent to update .kiro/steering/structure.md to reflect the current project structure.",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      ".github/**"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A file in .github/ was just created. Review the current project structure and update .kiro/steering/structure.md to accurately reflect the latest directory layout and any new files. Keep the existing format and conventions documented in structure.md."
+  }
+}
