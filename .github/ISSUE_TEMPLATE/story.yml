@@ -1,0 +1,40 @@
+name: "Story"
+description: "Create a user story issue to describe a feature or enhancement from the user's perspective."
+labels: ["story"]
+body:
+  - type: textarea
+    attributes:
+      label: "User Story"
+      placeholder: |
+        As a [type of user], I want [goal], so that [benefit].
+
+        **Acceptance Scenarios:**
+
+        Given [precondition],
+        When [action],
+        Then [expected result].
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Acceptance Criteria"
+      placeholder: |
+        - [ ] Criterion one
+        - [ ] Criterion two
+        - [ ] Criterion three
+
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Add any supporting context here, such as screenshots, links, or technical notes."
+
+  - type: dropdown
+    attributes:
+      label: "Story Points"
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "8"
