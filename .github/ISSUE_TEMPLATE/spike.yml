@@ -1,0 +1,80 @@
+name: "Spike"
+description: "Research and document a new feature, technology, or implementation approach."
+labels: ["spike", "documentation"]
+body:
+  - type: textarea
+    attributes:
+      label: "Objective"
+      description: "What question or problem is this spike trying to answer?"
+      placeholder: |
+        e.g., Evaluate whether X technology is a good fit for Y use case.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: "Type"
+      description: "What kind of research is this?"
+      options:
+        - "New feature exploration"
+        - "Technology evaluation"
+        - "Implementation approach"
+        - "Architecture decision"
+        - "Comparing options"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Background"
+      description: "Provide context on why this research is needed. Link to any related issues or discussions."
+
+  - type: textarea
+    attributes:
+      label: "Options to Explore"
+      description: "List the options, tools, or approaches to investigate."
+      placeholder: |
+        - **Option A**: Description
+        - **Option B**: Description
+
+  - type: textarea
+    attributes:
+      label: "Evaluation Criteria"
+      description: "How will the options be compared? List the criteria that matter."
+      placeholder: |
+        - Performance
+        - Cost
+        - Ease of integration
+        - Community support / maintenance
+
+  - type: textarea
+    attributes:
+      label: "Expected Output"
+      description: "What deliverable is expected from this spike?"
+      placeholder: |
+        e.g., A summary document with a recommendation, a proof-of-concept, a decision record, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Time Box"
+      description: "How much time should be spent on this spike before reporting findings?"
+      placeholder: |
+        e.g., 2 days, 1 sprint
+
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Add any supporting context here, such as links, diagrams, or related issues."
+
+  - type: dropdown
+    attributes:
+      label: "Story Points"
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "8"

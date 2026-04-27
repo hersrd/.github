@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "name": "Update GITHUB.md on .github changes",
-  "description": "Automatically updates the GITHUB.md to reflect the current contents of the .github directory whenever a file inside .github is created, edited, or deleted.",
+  "name": "Update README.md on .github changes",
+  "description": "Automatically updates the README.md to reflect the current contents of the .github directory whenever a file inside .github is created, edited, or deleted.",
   "version": "1",
   "when": {
     "type": "fileEdited",
@@ -11,6 +11,6 @@
   },
   "then": {
     "type": "askAgent",
-    "prompt": "A file inside the .github directory was changed. Review the current contents of the .github directory and update GITHUB.md to accurately reflect the available templates and workflows. List any workflows, issue templates, and PR templates with brief descriptions based on their content."
+    "prompt": "A file inside the .github directory was changed. Review the current contents of the .github directory and update README.md to accurately reflect the available templates and workflows. List any workflows, issue templates, and PR templates with brief descriptions based on their content."
   }
 }

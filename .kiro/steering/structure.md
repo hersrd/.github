@@ -4,6 +4,7 @@
 .
 ├── .github/              # GitHub configuration (templates, workflows)
 │   └── ISSUE_TEMPLATE/   # Issue templates
+│       ├── bug.yml       # Bug report issue template
 │       ├── config.yml    # Template chooser config (blank issues disabled)
 │       └── story.yml     # User story issue template
 ├── .kiro/
@@ -11,7 +12,7 @@
 │   ├── specs/            # Feature specs
 │   └── steering/         # AI assistant steering rules
 ├── .gitignore
-├── GITHUB.md             # Documentation for shared GitHub templates & workflows
+├── README.md             # Documentation for shared GitHub templates & workflows
 └── README.md
 ```
 
@@ -23,5 +24,5 @@
 
 ## Notes
 
-- `GITHUB.md` at the repo root documents the available GitHub templates and workflows.
+- `README.md` at the repo root documents the available GitHub templates and workflows.
 - This repo is meant to be referenced by other HersRD repositories, so changes here can have organization-wide impact.
