@@ -1,5 +1,6 @@
 name: "Spike"
 description: "Research and document a new feature, technology, or implementation approach."
+type: "Task"
 labels: ["spike", "documentation"]
 body:
   - type: textarea
