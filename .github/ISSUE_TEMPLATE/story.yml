@@ -1,6 +1,6 @@
 name: "Story"
 description: "Create a user story issue to describe a feature or enhancement from the user's perspective."
-labels: ["story"]
+labels: ["feature"]
 body:
   - type: textarea
     attributes:
@@ -20,9 +20,7 @@ body:
     attributes:
       label: "Acceptance Criteria"
       placeholder: |
-        - [ ] Criterion one
-        - [ ] Criterion two
-        - [ ] Criterion three
+        - [ ] First criteria
 
   - type: textarea
     attributes:

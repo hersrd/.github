@@ -12,5 +12,7 @@
   "then": {
     "type": "askAgent",
     "prompt": "A file in .github/ was just created. Review the current project structure and update .kiro/steering/structure.md to accurately reflect the latest directory layout and any new files. Keep the existing format and conventions documented in structure.md."
-  }
+  },
+  "workspaceFolderName": "hersrdgithub",
+  "shortName": "update-structure-steering"
 }
