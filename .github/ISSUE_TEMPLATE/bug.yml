@@ -6,7 +6,7 @@ body:
   - type: textarea
     attributes:
       label: "Describe the Bug"
-      description: "A clear and concise description of what the bug is."
+      description: "What happened, and what did you expect instead?"
     validations:
       required: true
 
@@ -16,22 +16,7 @@ body:
       placeholder: |
         1. Go to '...'
         2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: "Expected Behavior"
-      description: "A clear and concise description of what you expected to happen."
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: "Actual Behavior"
-      description: "A clear and concise description of what actually happened."
+        3. See error
     validations:
       required: true
 
@@ -39,8 +24,3 @@ body:
     attributes:
       label: "Screenshots"
       description: "If applicable, add screenshots to help explain the problem."
-
-  - type: textarea
-    attributes:
-      label: "Additional Context"
-      description: "Add any other context about the problem here, such as environment details, logs, or related issues."
