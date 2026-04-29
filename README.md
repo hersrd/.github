@@ -7,8 +7,8 @@ Shared GitHub templates and workflows for HersRD repos.
 | Template | Type | Labels | Description |
 |----------|------|--------|-------------|
 | [Bug Report](.github/ISSUE_TEMPLATE/bug.yml) | Bug | `bug` | Report a bug to help us identify and fix issues. Includes fields for bug description, steps to reproduce, expected behavior, actual behavior, screenshots, and additional context. |
-| [Spike](.github/ISSUE_TEMPLATE/spike.yml) | Task | `spike`, `documentation` | Research and document a new feature, technology, or implementation approach. Includes fields for objective, research type, background, options to explore, evaluation criteria, expected output, time box, and story points. |
-| [Story](.github/ISSUE_TEMPLATE/story.yml) | Feature | `feature` | Create a user story issue to describe a feature or enhancement from the user's perspective. Includes fields for a user story narrative, acceptance criteria, additional context, and story point sizing. |
+| [Spike](.github/ISSUE_TEMPLATE/spike.yml) | Task | `spike`, `documentation` | Research and document a new feature, technology, or implementation approach. Includes fields for objective, background & options to explore, and deliverable. |
+| [Story](.github/ISSUE_TEMPLATE/story.yml) | Feature | `enhancement` | Create a user story issue to describe a feature or enhancement from the user's perspective. Includes fields for a user story narrative with Given/When/Then scenarios and acceptance criteria. |
 
 ### Configuration
 
