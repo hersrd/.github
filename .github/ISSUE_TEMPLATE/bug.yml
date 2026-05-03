@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: textarea
     attributes:
-      label: "Describe the Bug"
+      label: "Description"
       description: "What happened, and what did you expect instead?"
     validations:
       required: true
@@ -13,12 +13,8 @@ body:
   - type: textarea
     attributes:
       label: "Steps to Reproduce"
-      placeholder: |
+      value: |
         1. Go to '...'
-        2. Click on '...'
-        3. See error
-    validations:
-      required: true
 
   - type: textarea
     attributes:

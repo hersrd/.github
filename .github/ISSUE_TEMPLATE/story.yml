@@ -1,19 +1,12 @@
 name: "Story"
 description: "Create a user story issue to describe a feature or enhancement from the user's perspective."
 type: "Feature"
-labels: ["enhancement"]
 body:
   - type: textarea
     attributes:
-      label: "User Story"
+      label: "Requirements"
       value: |
-        As a [type of user], I want [goal], so that [benefit].
-
-        **Scenarios:**
-
-        Given [precondition],
-        When [action],
-        Then [expected result].
+        - [ ] First requirement
     validations:
       required: true
 
@@ -22,4 +15,5 @@ body:
       label: "Acceptance Criteria"
       value: |
         - [ ] First criteria
-
+    validations:
+      required: true
