@@ -1,0 +1,21 @@
+name: "Research"
+description: "Research and document a new feature, technology, or implementation approach."
+type: "Task"
+labels: ["documentation"]
+body:
+  - type: textarea
+    attributes:
+      label: "Requirements"
+      value: |
+        - [ ] First requirement
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Deliverable"
+      description: "What deliverable is expected from this spike?"
+      placeholder: |
+        e.g., A summary document with a recommendation, a proof-of-concept, a decision record, etc.
+    validations:
+      required: true
